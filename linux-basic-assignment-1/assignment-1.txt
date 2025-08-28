@@ -65,20 +65,4 @@ echo $MY_VAR
 - Sets an environment variable MY_VAR.
 - Prints the value of MY_VAR.
 
-## ✅ Submission Guidelines
 
-📷 Screenshots: Take a screenshot of each command executed in the terminal and include them in your `.doc` file or Google Doc.
-
-📁 GitHub: Create a GitHub repository named `linux-assignment-1` and push a file named `assignment-1.txt` or `assignment-1.docx` containing:
-- Commands used
-- Explanations
-- Screenshots (if in .docx)
-
-Example GitHub structure:
-
-linux-assignment-1/
-├── assignment-1.txt
-└── screenshots/
-    ├── step1.png
-    ├── step2.png
-    └── ...
