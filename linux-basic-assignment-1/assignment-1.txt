@@ -1,0 +1,84 @@
+# Assignment-1: Basic Linux Command Line Operations
+
+## 1. Creating and Renaming Files/Directories
+### ➤ Command:
+mkdir test_dir
+cd test_dir
+touch example.txt
+mv example.txt renamed_example.txt
+
+### ➤ Explanation:
+- Creates a new directory called 'test_dir'.
+- Navigates into 'test_dir'.
+- Creates an empty file named 'example.txt'.
+- Renames the file to 'renamed_example.txt'.
+
+## 2. Viewing File Contents
+### ➤ Command:
+cat /etc/passwd
+head -n 5 /etc/passwd
+tail -n 5 /etc/passwd
+
+### ➤ Explanation:
+- Displays the full content of /etc/passwd.
+- Shows the first 5 lines of the file.
+- Shows the last 5 lines of the file.
+
+## 3. Searching for Patterns
+### ➤ Command:
+grep "root" /etc/passwd
+
+### ➤ Explanation:
+- Searches for lines containing the word 'root' in the /etc/passwd file.
+
+## 4. Zipping and Unzipping
+### ➤ Command:
+zip -r test_dir.zip test_dir
+unzip test_dir.zip -d unzipped_dir
+
+### ➤ Explanation:
+- Compresses 'test_dir' recursively into 'test_dir.zip'.
+- Extracts the contents into a directory named 'unzipped_dir'.
+
+## 5. Downloading Files
+### ➤ Command:
+wget https://example.com/sample.txt
+
+### ➤ Explanation:
+- Downloads the file from the specified URL.
+
+## 6. Changing Permissions
+### ➤ Command:
+touch secure.txt
+chmod 444 secure.txt
+
+### ➤ Explanation:
+- Creates a file named 'secure.txt'.
+- Changes permissions to read-only for everyone (r--r--r--).
+
+## 7. Working with Environment Variables
+### ➤ Command:
+export MY_VAR="Hello, Linux!"
+echo $MY_VAR
+
+### ➤ Explanation:
+- Sets an environment variable MY_VAR.
+- Prints the value of MY_VAR.
+
+## ✅ Submission Guidelines
+
+📷 Screenshots: Take a screenshot of each command executed in the terminal and include them in your `.doc` file or Google Doc.
+
+📁 GitHub: Create a GitHub repository named `linux-assignment-1` and push a file named `assignment-1.txt` or `assignment-1.docx` containing:
+- Commands used
+- Explanations
+- Screenshots (if in .docx)
+
+Example GitHub structure:
+
+linux-assignment-1/
+├── assignment-1.txt
+└── screenshots/
+    ├── step1.png
+    ├── step2.png
+    └── ...
